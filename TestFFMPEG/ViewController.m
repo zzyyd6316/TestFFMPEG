@@ -26,8 +26,8 @@
     
     UIButton*btn2 = [[UIButton alloc]initWithFrame:CGRectMake(138, 350, 100, 50)];
     [btn2 setBackgroundColor:[UIColor greenColor]];
-    [btn2 setTitle:@"查看" forState:UIControlStateNormal];
-    [btn2 setTitle:@"查看" forState:UIControlStateHighlighted];
+    [btn2 setTitle:@"查看Data格式" forState:UIControlStateNormal];
+    [btn2 setTitle:@"查看Data格式" forState:UIControlStateHighlighted];
     [btn2 addTarget:self action:@selector(look) forControlEvents:UIControlEventTouchUpInside];
     [self.view addSubview:btn2];
 }
@@ -39,7 +39,7 @@
 }
 
 -(void)gotoPlayVC{
-    NSString *path = [[NSBundle mainBundle] pathForResource:@"x264_Overflow_Sample" ofType:@"mkv"];
+    NSString *path = [[NSBundle mainBundle] pathForResource:@"tij-h264" ofType:@"avi"];
 //    NSString *path = @"http://v.jxvdy.com/sendfile/w5bgP3A8JgiQQo5l0hvoNGE2H16WbN09X-ONHPq3P3C1BISgf7C-qVs6_c8oaw3zKScO78I--b0BGFBRxlpw13sf2e54QA";
     NSMutableDictionary *parameters = [NSMutableDictionary dictionary];
     // increase buffering for .wmv, it solves problem with delaying audio frames

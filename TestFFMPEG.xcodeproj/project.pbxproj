@@ -32,7 +32,6 @@
 		5A3741E41F5569D10039D0F5 /* libbz2.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A3741E31F5569D10039D0F5 /* libbz2.tbd */; };
 		5A3741E61F5569F80039D0F5 /* libiconv.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A3741E51F5569F80039D0F5 /* libiconv.tbd */; };
 		5A3741E81F5655570039D0F5 /* tij-h264.avi in Resources */ = {isa = PBXBuildFile; fileRef = 5A3741E71F5655570039D0F5 /* tij-h264.avi */; };
-		5A3741EB1F565F3D0039D0F5 /* x264_Overflow_Sample.mkv in Resources */ = {isa = PBXBuildFile; fileRef = 5A3741EA1F565F3D0039D0F5 /* x264_Overflow_Sample.mkv */; };
 		5A3741ED1F5661770039D0F5 /* killer_cuts10f_16x16.264 in Resources */ = {isa = PBXBuildFile; fileRef = 5A3741EC1F5661770039D0F5 /* killer_cuts10f_16x16.264 */; };
 		5A3741EF1F5662200039D0F5 /* foreman_p16x16.264 in Resources */ = {isa = PBXBuildFile; fileRef = 5A3741EE1F5662200039D0F5 /* foreman_p16x16.264 */; };
 /* End PBXBuildFile section */
@@ -200,7 +199,6 @@
 		5A3741E31F5569D10039D0F5 /* libbz2.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libbz2.tbd; path = usr/lib/libbz2.tbd; sourceTree = SDKROOT; };
 		5A3741E51F5569F80039D0F5 /* libiconv.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libiconv.tbd; path = usr/lib/libiconv.tbd; sourceTree = SDKROOT; };
 		5A3741E71F5655570039D0F5 /* tij-h264.avi */ = {isa = PBXFileReference; lastKnownFileType = video.avi; path = "tij-h264.avi"; sourceTree = "<group>"; };
-		5A3741EA1F565F3D0039D0F5 /* x264_Overflow_Sample.mkv */ = {isa = PBXFileReference; lastKnownFileType = file; path = x264_Overflow_Sample.mkv; sourceTree = "<group>"; };
 		5A3741EC1F5661770039D0F5 /* killer_cuts10f_16x16.264 */ = {isa = PBXFileReference; lastKnownFileType = file; path = killer_cuts10f_16x16.264; sourceTree = "<group>"; };
 		5A3741EE1F5662200039D0F5 /* foreman_p16x16.264 */ = {isa = PBXFileReference; lastKnownFileType = file; path = foreman_p16x16.264; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -246,7 +244,6 @@
 			children = (
 				5A3741EE1F5662200039D0F5 /* foreman_p16x16.264 */,
 				5A3741EC1F5661770039D0F5 /* killer_cuts10f_16x16.264 */,
-				5A3741EA1F565F3D0039D0F5 /* x264_Overflow_Sample.mkv */,
 				5A3741E71F5655570039D0F5 /* tij-h264.avi */,
 				5A37414A1F5569B70039D0F5 /* External */,
 				5A3741161F55694F0039D0F5 /* TestFFMPEG */,
@@ -606,7 +603,6 @@
 				TargetAttributes = {
 					5A3741131F55694F0039D0F5 = {
 						CreatedOnToolsVersion = 8.3.3;
-						DevelopmentTeam = PUGSW83VPU;
 						ProvisioningStyle = Automatic;
 					};
 					5A37412C1F55694F0039D0F5 = {
@@ -649,7 +645,6 @@
 				5A3741271F55694F0039D0F5 /* LaunchScreen.storyboard in Resources */,
 				5A3741EF1F5662200039D0F5 /* foreman_p16x16.264 in Resources */,
 				5A3741DA1F5569B70039D0F5 /* kxmovie.bundle in Resources */,
-				5A3741EB1F565F3D0039D0F5 /* x264_Overflow_Sample.mkv in Resources */,
 				5A3741ED1F5661770039D0F5 /* killer_cuts10f_16x16.264 in Resources */,
 				5A3741241F55694F0039D0F5 /* Assets.xcassets in Resources */,
 				5A3741221F55694F0039D0F5 /* Main.storyboard in Resources */,
@@ -833,7 +828,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = PUGSW83VPU;
+				DEVELOPMENT_TEAM = "";
 				HEADER_SEARCH_PATHS = "$(PROJECT_DIR)/External/FFmpeg-iOS/include";
 				INFOPLIST_FILE = TestFFMPEG/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
@@ -851,7 +846,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = PUGSW83VPU;
+				DEVELOPMENT_TEAM = "";
 				HEADER_SEARCH_PATHS = "$(PROJECT_DIR)/External/FFmpeg-iOS/include";
 				INFOPLIST_FILE = TestFFMPEG/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
